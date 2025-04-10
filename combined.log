@@ -165,3 +165,17 @@
 {"level":"info","message":"Posts obtidos com sucesso!"}
 {"level":"info","message":"Posts obtidos com sucesso!"}
 {"level":"info","message":"Posts obtidos com sucesso!"}
+{"level":"info","message":"Posts obtidos com sucesso!"}
+{"level":"info","message":"Posts obtidos com sucesso!"}
+{"level":"info","message":"Posts obtidos com sucesso!"}
+{"level":"info","message":"Posts obtidos com sucesso!"}
+{"level":"info","message":"Posts obtidos com sucesso!"}
+{"error":{},"level":"error","message":"Falha ao obter posts"}
+{"error":{},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"6.6.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"6.6.0","name":"PrismaClientValidationError"},"level":"error","message":"Falha ao obter posts"}
+{"level":"info","message":"Posts obtidos com sucesso!"}
+{"level":"info","message":"Posts obtidos com sucesso!"}
+{"error":{},"level":"error","message":"Falha ao obter o post com o slug","slug":"construindo-spa-com-vuejsa"}
+{"error":{},"level":"error","message":"Falha ao obter o post com o slug","slug":"construindo-spa-com-vuejsa"}
+{"error":{},"level":"error","message":"Falha ao obter o post com o slug","slug":"construindo-spa-com-vuejsa"}
