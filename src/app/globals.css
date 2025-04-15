@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+
+::backdrop {
+  background-color: #171D1F;
+  opacity: 0.8;
+}
+
 body {
   background: linear-gradient(180deg, #0E1112 0%, #00090E 100%);
   margin: 0;
