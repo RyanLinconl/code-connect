@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "npm run prisma:generate && npm run prisma:migrate && next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "prisma generate"
-  },
-  "prisma": {
-     "seed": "node prisma/seed.js"
+    "postinstall": "npm run prisma:generate && npm run prisma:migrate && npm run seed",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate deploy",
+    "seed": "node prisma/seed.js"
   },
   "dependencies": {
     "@prisma/client": "^5.9.1",
