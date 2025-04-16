@@ -33,7 +33,7 @@ import { ReplyModal } from '../ModalReply'
                  {showReplies ? 'Ocultar' : 'Ver'} respostas
              </button>
              {showReplies && <ul>
-                { comment.children.map(reply => <li key={reply.id}>
+                { replies.map(reply => <li key={reply.id}>
                     <Comment comment={reply}/>
                     <ReplyModal comment={reply}/>
                 </li>)}
